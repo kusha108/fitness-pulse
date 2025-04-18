@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a Member - Fitness Pulse</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .membership-page {
+            background-image: url('/image/money.jpg'); /* Add your background image URL here */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .content {
+            background-color: rgba(0, 0, 0, 0.7); /* Dark background for readability */
+            padding: 40px;
+            border-radius: 10px;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #ff69b4; /* Pink color */
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            color: #ffb6c1; /* Lighter pink color */
+        }
+
+        .subscription-options {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .subscription {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 8px;
+            width: 45%;
+            border: 2px solid #ff69b4; /* Pink border */
+        }
+
+        .subscription h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #ff69b4; /* Pink color */
+        }
+
+        .subscription p {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #ffb6c1; /* Lighter pink color */
+        }
+
+        button {
+            background-color: #ff6200;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #ff4500;
+        }
+
+        .transfer-details {
+            background-color: rgba(255, 255, 255, 0.3);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border: 2px solid #ff69b4; /* Pink border */
+        }
+
+        .transfer-details h2 {
+            color: #ff69b4; /* Pink color */
+        }
+
+        .transfer-details ul {
+            list-style-type: none;
+            font-size: 16px;
+        }
+
+        .transfer-details li {
+            margin: 10px 0;
+            color: #ffb6c1; /* Lighter pink color */
+        }
+    </style>
+</head>
+<body>
+    <div class="membership-page">
+        <div class="content">
+            <h1>Become a Member of Fitness Pulse</h1>
+            <p>Join now to access personalized nutrition and fitness plans!</p>
+
+            <!-- Subscription options -->
+            <div class="subscription-options">
+                <div class="subscription">
+                    <h3>Monthly Subscription</h3>
+                    <p>$19.99/month</p>
+                    <button>Subscribe Now</button>
+                </div>
+                <div class="subscription">
+                    <h3>Yearly Subscription</h3>
+                    <p>$199.99/year</p>
+                    <button>Subscribe Now</button>
+                </div>
+            </div>
+
+            <!-- Payment transfer details -->
+            <div class="transfer-details">
+                <h2>Payment Transfer Details</h2>
+                <p>Please make your payment to the following account:</p>
+                <ul>
+                    <li><strong>Bank Name:</strong> Fitness Bank</li>
+                    <li><strong>Account Number:</strong> 123-456-789</li>
+                    <li><strong>SWIFT Code:</strong> FITUS123</li>
+                    <li><strong>Amount:</strong> $19.99 (Monthly) or $199.99 (Yearly)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complete Fitness and Diet Plan Website</title>
+   <!--swiper css link-->
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Custom CSS file link -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- FontAwesome CDN file link -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+  <style>
+    /* Basic reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Header styles */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background: rgba(247, 243, 243, 0.984);
+      position: fixed;
+      width: 100%;
+      z-index: 100;
+    }
+
+    .header .logo {
+      font-size: 30px;
+      color: #131111;
+      text-decoration: none;
+    }
+
+    .header .logo span {
+      color: #f73471;
+    }
+
+    .navbar a {
+      color: #070606;
+      margin-left: 20px;
+      text-decoration: none;
+    }
+
+    .icons .btn {
+      background: #f39c12;
+      padding: 10px 20px;
+      color: white;
+      border: none;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    /* Main section styles */
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: url('/image/body.jpg') no-repeat center center/cover;
+    }
+
+    .content {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 40px;
+      border-radius: 10px;
+      color: white;
+    }
+
+    .content h3 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    .content p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .content .btn {
+      background: #f73471;
+      padding: 10px 20px;
+      color: white;
+      border: none;
+      text-decoration: none;
+      border-radius: 5px;
+      margin: 10px;
+    }
+
+    /* Scrollable content */
+    .scroll-container {
+      max-height: 600px;
+      overflow-y: scroll;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    /* Scroll bar customization */
+    .scroll-container::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    .scroll-container::-webkit-scrollbar-thumb {
+      background: #f73471;
+      border-radius: 5px;
+    }
+
+    .scroll-container::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0.2);
+    }
+  </style>
+
+</head>
+<body>
+   <!-- Header section start -->
+   <header class="header">
+    <a href="#" class="logo"><img src="/image/gym_logo-removebg-preview (1).png" alt="Fitness Pulse Logo" height="50"> FITNESS <span>PULSE</span></a>
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/servicess.html">Services</a>
+      <a href="/dietplan.html">Diet Plans</a>
+      <a href="#">News</a>
+    </nav>
+    <div class="icons">
+      <a href="/becomeamember.html" class="btn">Become a member</a>
+      <div id="menu-btn" class="fas fa-bars"></div>
+    </div>
+  </header>
+  <!-- Header section ends -->
+
+  <!-- Home section starts -->
+  <main>
+    <div class="content">
+      <h3>Join Fitness Pulse Today</h3>
+      <p>"Transform your body, elevate your mind—unlock your full potential with Fitness Pulse!"</p>
+      <a href="/getstarted.html" class="btn">Get Started</a>
+      <a href="#" class="btn">Download</a>
+    </div>
+  </main>
+  <div class="img" id="img2"></div>
+  <!-- Home section ends -->
+
+  <!-- Scrollable section for extra content -->
+  <div class="scroll-container">
+    <p>Scroll content goes here. Add any additional text, images, or information that users can scroll through.</p>
+    <!-- More scrollable content... -->
+  </div>
+
+  <!-- Custom JS file link -->
+  <script src="./script.js"></script>
+</body>
+</html>
